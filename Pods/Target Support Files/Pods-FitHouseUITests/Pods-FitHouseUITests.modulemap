@@ -1,0 +1,6 @@
+framework module Pods_FitHouseUITests {
+  umbrella header "Pods-FitHouseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
