@@ -5,24 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Side Bar View Controller-->
-        <scene sceneID="iC2-bI-0kC">
-            <objects>
-                <viewController storyboardIdentifier="SideBarViewController" id="WKB-CH-NMQ" customClass="SideBarViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="iIm-ii-VIE"/>
-                        <viewControllerLayoutGuide type="bottom" id="e5i-lg-aBF"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="avU-Zx-WUj">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.22294861368601149" green="1" blue="0.96296345148168594" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Y9b-NW-V79" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-590" y="-463"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="bu3-fl-KH4">
             <objects>

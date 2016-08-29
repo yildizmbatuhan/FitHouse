@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0C9A7FDAC6F1469390D1143C /* Pods_FitHouseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EE127E0160C4690A11C615 /* Pods_FitHouseUITests.framework */; };
+		44AD7E781D74E75C008323B3 /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AD7E761D74E75C008323B3 /* SideBarViewController.m */; };
+		44AD7E791D74E75C008323B3 /* SideBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44AD7E771D74E75C008323B3 /* SideBarViewController.xib */; };
 		C135492C1D73A63E00BD453A /* AbstractViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C135492B1D73A63E00BD453A /* AbstractViewController.m */; };
 		C135492F1D73ACB000BD453A /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C135492E1D73ACB000BD453A /* HomePageViewController.m */; };
-		C13549321D73B61E00BD453A /* SideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13549311D73B61E00BD453A /* SideBarViewController.m */; };
 		C1FFD3CF1D732D6500FF9B83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FFD3CE1D732D6500FF9B83 /* main.m */; };
 		C1FFD3D21D732D6500FF9B83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FFD3D11D732D6500FF9B83 /* AppDelegate.m */; };
 		C1FFD3D81D732D6500FF9B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1FFD3D61D732D6500FF9B83 /* Main.storyboard */; };
@@ -44,12 +45,13 @@
 		1FE43F378DD4EEB93A11D2B8 /* Pods-FitHouseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitHouseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitHouseTests/Pods-FitHouseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2EDF199192BD9016B6CF2A8B /* Pods_FitHouseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitHouseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EE127E0160C4690A11C615 /* Pods_FitHouseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitHouseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AD7E751D74E75C008323B3 /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarViewController.h; sourceTree = "<group>"; };
+		44AD7E761D74E75C008323B3 /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarViewController.m; sourceTree = "<group>"; };
+		44AD7E771D74E75C008323B3 /* SideBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideBarViewController.xib; sourceTree = "<group>"; };
 		C135492A1D73A63E00BD453A /* AbstractViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractViewController.h; sourceTree = "<group>"; };
 		C135492B1D73A63E00BD453A /* AbstractViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractViewController.m; sourceTree = "<group>"; };
 		C135492D1D73ACB000BD453A /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		C135492E1D73ACB000BD453A /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
-		C13549301D73B61E00BD453A /* SideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarViewController.h; sourceTree = "<group>"; };
-		C13549311D73B61E00BD453A /* SideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarViewController.m; sourceTree = "<group>"; };
 		C1FFD3CA1D732D6500FF9B83 /* FitHouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitHouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FFD3CE1D732D6500FF9B83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1FFD3D01D732D6500FF9B83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +109,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		44AD7E6F1D74E6B8008323B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C135492A1D73A63E00BD453A /* AbstractViewController.h */,
+				C135492B1D73A63E00BD453A /* AbstractViewController.m */,
+				C135492D1D73ACB000BD453A /* HomePageViewController.h */,
+				C135492E1D73ACB000BD453A /* HomePageViewController.m */,
+				44AD7E751D74E75C008323B3 /* SideBarViewController.h */,
+				44AD7E761D74E75C008323B3 /* SideBarViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		44AD7E701D74E6C1008323B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44AD7E771D74E75C008323B3 /* SideBarViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		44AD7E711D74E6CB008323B3 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
+		44AD7E721D74E6D5008323B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		80C837F5C59FEFEE4332B9C3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,18 +182,16 @@
 		C1FFD3CC1D732D6500FF9B83 /* FitHouse */ = {
 			isa = PBXGroup;
 			children = (
+				44AD7E721D74E6D5008323B3 /* Model */,
+				44AD7E711D74E6CB008323B3 /* Component */,
+				44AD7E701D74E6C1008323B3 /* View */,
+				44AD7E6F1D74E6B8008323B3 /* Controller */,
 				C1FFD3D01D732D6500FF9B83 /* AppDelegate.h */,
 				C1FFD3D11D732D6500FF9B83 /* AppDelegate.m */,
 				C1FFD3D61D732D6500FF9B83 /* Main.storyboard */,
 				C1FFD3D91D732D6500FF9B83 /* Assets.xcassets */,
 				C1FFD3DE1D732D6500FF9B83 /* Info.plist */,
 				C1FFD3CD1D732D6500FF9B83 /* Supporting Files */,
-				C135492A1D73A63E00BD453A /* AbstractViewController.h */,
-				C135492B1D73A63E00BD453A /* AbstractViewController.m */,
-				C135492D1D73ACB000BD453A /* HomePageViewController.h */,
-				C135492E1D73ACB000BD453A /* HomePageViewController.m */,
-				C13549301D73B61E00BD453A /* SideBarViewController.h */,
-				C13549311D73B61E00BD453A /* SideBarViewController.m */,
 			);
 			path = FitHouse;
 			sourceTree = "<group>";
@@ -299,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1FFD3DA1D732D6500FF9B83 /* Assets.xcassets in Resources */,
+				44AD7E791D74E75C008323B3 /* SideBarViewController.xib in Resources */,
 				C1FFD3D81D732D6500FF9B83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,7 +486,7 @@
 				C135492F1D73ACB000BD453A /* HomePageViewController.m in Sources */,
 				C1FFD3D21D732D6500FF9B83 /* AppDelegate.m in Sources */,
 				C135492C1D73A63E00BD453A /* AbstractViewController.m in Sources */,
-				C13549321D73B61E00BD453A /* SideBarViewController.m in Sources */,
+				44AD7E781D74E75C008323B3 /* SideBarViewController.m in Sources */,
 				C1FFD3CF1D732D6500FF9B83 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

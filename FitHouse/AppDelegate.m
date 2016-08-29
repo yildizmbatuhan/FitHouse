@@ -24,9 +24,12 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     // Step 1: Create your controllers.
-    HomePageViewController *home = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"HomePageViewController"];
+    HomePageViewController *home = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"HomePageNavigation"];
     
-    SideBarViewController *side = [[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"SideBarViewController"];
+    SideBarViewController *side = [[SideBarViewController alloc] initWithNibName:@"SideBarViewController" bundle:nil];
+    
+    
+    //[[UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"SideBarViewController"];
     
 //    // Options
 //    NSDictionary *options = @{
@@ -37,7 +40,7 @@
     // Step 2: Instantiate.
     self.revealController = [PKRevealController revealControllerWithFrontViewController:home leftViewController:side];
 //    self.revealController = [PKRevealController revealControllerWithFrontViewController:home.navigationController leftViewController:side rightViewController:nil];
-    
+    [self.revealController setMinimumWidth:270.0f maximumWidth:270.0f forViewController:self.revealController.leftViewController];
     // Step 3: Configure.
     self.revealController.delegate = self;
     self.revealController.animationDuration = 0.25;
