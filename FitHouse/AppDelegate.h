@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <PKRevealController/PKRevealController.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+- (void)startPresentationMode;
 
 @end
 
